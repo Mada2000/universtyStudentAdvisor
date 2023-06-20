@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'LibreBaskerville';
+	src: url('LibreBaskerville.ttf') format('truetype');
+  }
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+  }
+.logo {
+	max-width: 200px;
+}
+
+.logo img {
+	max-width: 100%;
+	height: 180px;
+}
+body {
+	background-image: url("1.jpg");
+	background-size: cover;
+	font-family: 'LibreBaskerville';
+}
+
+.login {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 50px auto;
+	max-width: 400px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(254, 254, 254, 0.5);
+	border-radius: 20px;
+}
+
+h1 {
+	color: #005bac;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: left;
+}
+label[for="year"] {
+	text-align: center;
+  }
+select {
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px 1px;
+	width: 80%;
+	text-indent: 7px;
+	border-radius: 20px;
+	transition: transform 0.2s ease-in-out;
+  }
+  input[type="number"] {
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px 1px;
+	width: 100%;
+	text-indent: 7px; /* Move the cursor to the right by 7 pixels */
+	border-radius: 20px;
+	transition: transform 0.2s ease-in-out; /* Add a transition effect to the transform property */
+  }
+  
+  input[type="number"]:focus {
+	transform: scale(1.05); /* Scale the field up by 5% when it is clicked */
+  }
+input[type="submit"] {
+	background-color: #005bac;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 10px;
+	width: 30%;
+	font-family: 'LibreBaskerville';
+	border-radius: 50px; /* Use a value that is half the width of the button to create an oval shape */
+	transition: background-color 0.5s ease-in-out; /* Add a transition effect to the background color */
+}
+
+input[type="submit"]:hover {
+	background-color: #fff;
+	color: #005bac;
+}
+
+#login {
+	box-shadow: 0 0 250px 110px rgba(254, 254, 254, 0.5);
+  }
+

@@ -10,5 +10,6 @@ the project works as follow you first need to enter the login_affairs then enter
 he works as the admin and can add the students and professors(doctors) accounts and can also add the courses and a prerequisite course that 
 needed to be enrolled in first 
 
-then you can logout and login in as a student and enter your code and password and enroll for courses 
-and the professor to add the grades and add the material of the course.
+then you can logout and login in as a student and enter your code and password to enroll for courses, check you grades and get material of the course
+
+The professor then can add the grades and add the material of the course for the students to see.
